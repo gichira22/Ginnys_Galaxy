@@ -1,3 +1,106 @@
 body {
-    background: blue;
+  background: burlywood;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+header{
+  background-color: #1b1a1a;
+  padding: 15px;
+  color: aqua;
+  font-style: normal;
+  margin-top: 0;
+}
+#Welcome{
+  text-align: center;
+  font-family: Arial;
+  color: rgb(43, 226, 180);
+}
+nav{
+  text-align: center;
+  padding:20px;
+}
+  .hero nav a {
+    margin-right: 20px;
+    color: white; /* Adjust the value to increase or decrease space between links */
   }
+  
+  .hero nav a:last-child {
+    margin-right: 0; /* Removes margin from the last link */
+  }  
+  span{
+    color: blueviolet;
+  }
+img {
+  margin-left: 200px;
+  margin-right: 0;
+  border-radius: 100%;
+  display: block;
+  margin-top: 20px;
+  height: 500px;
+}
+.content h2, h4{
+  text-align: left;
+  padding-left: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+h4{
+  margin-left: 50px;
+}
+#Home, #About{
+  text-align: center;
+}
+#Skills{
+  margin-left: 30px;
+}
+#languages, #frameworks, #dbmngt{
+font-style: italic;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #000000;
+  padding: 20px;
+  color: aqua;
+  font-style: italic;
+  margin-bottom: 0;
+}

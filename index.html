@@ -1,12 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
-    <title>Ginny's Galaxy</title>
-    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
+    <header><h1 id="Welcome">Welcome to my Website!</h1>       
+        <div class="hero">
+            <nav>
+                <a href="#Home">HOME</a> 
+                <a href="#About">ABOUT ME</a>
+                <a href="#Skills">SKILLS</a>
+                <a href="#container">CONTACT ME</a>
+            </nav>
+        </div>
+    </header>
+ 
+        <img src="./Ginny_Portifolio.jpg" alt="Ginny_Portifolio" title="Welcome to Ginny's Galaxy">
+<div class="content">
+    <h2>Hello, I am <span>Ginny</span></h2>
+    <h4>I am a Full Stack Developer</h4>
+</div>
+<!--Welcome home! This is Ginny's Website!-->
+<div id="Home">
+    <h3>Home</h3>
+    <p>Welcome to my software developer portfolio! This is where innovation meets code. Explore my projects, skills, and more.</p>
+</div>
+<!--This section tells about who I am-->
+<div id="About">
+    <h3>About Me</h3>
+    <p>I am a passionate software developer with a knack for turning ideas into reality through elegant code.<br>With a background in Computer science and Software Development skills, I thrive on challenges and love to learn new technologies. <br> My goal is to create impactful solutions that make a difference in people's lives.
+</div>
+<!-- This is a list of some of my skills as a developer-->
+<div id="Skills">
+    <h3>Skills</h3>
+    <ul>
+        <li>Programming Languages:
+            <ul id="languages">
+                <li>Python</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+            </ul>
+        <li>Web Development:</li>
+            <ul id="frameworks">
+                <li>Django</li>
+                <li>React</li>
+                <li>Flutter</li>
+            </ul>
+        <li>Mobile Development</li>
+        <li>Database Management</li>
+            <ul id="dbmngt">
+                <li>Databases</li>
+                <li>SQL</li>
+                <li>MySQL</li>
+            </ul>
+            <li>Version Control</li>
+    </ul>
+</div>
+  <!--This is Contact Me section-->
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" Enter your name>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" Enter your email>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    
+      <script src="script.js"></script>
+    <footer>
+        <div class="copyright">
+            <p>
+                Copyright &copy;
+                <script async>
+                    document.write(new Date().getFullYear());
+                </script>
+                . | All right reserved. | by Ginny.
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
